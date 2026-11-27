@@ -1,6 +1,6 @@
 // Service worker: deixa o app funcionando sem internet.
 // Estratégia: responde do cache na hora e atualiza em segundo plano quando houver sinal.
-const CACHE = 'ns-v1';
+const CACHE = 'ns-v2';
 const ASSETS = ['./', 'index.html', 'styles.css', 'app.js', 'manifest.webmanifest', 'icon.svg'];
 
 self.addEventListener('install', (e) => {

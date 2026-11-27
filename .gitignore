@@ -1,0 +1,4 @@
+# Dados reais nunca vão para o repositório público
+*.csv
+*.xlsx
+*.json

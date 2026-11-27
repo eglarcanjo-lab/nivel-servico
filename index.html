@@ -14,7 +14,9 @@
   <header class="top">
     <div class="brand"><img src="icon.svg" alt=""><span>Nível de Serviço</span></div>
     <nav class="nav" id="nav">
-      <a href="#/agenda" data-r="agenda"><span class="ico">📅</span><span>Minha Agenda</span></a>
+      <a href="#/hoje" data-r="hoje"><span class="ico">▶️</span><span>Hoje</span></a>
+      <a href="#/agenda" data-r="agenda"><span class="ico">📅</span><span>Agenda</span></a>
+      <a href="#/pendencias" data-r="pendencias"><span class="ico">⚠️</span><span>Pendências</span></a>
       <a href="#/promotores" data-r="promotores"><span class="ico">🛒</span><span>Promotores</span></a>
       <a href="#/cadastros" data-r="cadastros"><span class="ico">⚙️</span><span>Cadastros</span></a>
     </nav>
@@ -23,6 +25,7 @@
   <div id="banner"></div>
   <main id="view" tabindex="-1"></main>
   <dialog id="dlg"><form id="dlgform" novalidate></form></dialog>
+  <dialog id="viewer" aria-label="Foto"><img alt="Foto ampliada"></dialog>
   <div id="toast" role="status" aria-live="polite"></div>
   <script src="app.js"></script>
 </body>
